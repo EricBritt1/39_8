@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles adding a todo 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <form>
+        <label
+          for="todo"
+        >
+          Enter Todo: 
+        </label>
+        <input
+          id="todo"
+          name="todo"
+          placeholder="Enter task"
+          type="text"
+          value=""
+        />
+        <button>
+          Add Todo
+        </button>
+      </form>
+      <div>
+        <button>
+          X
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <form>
+        <label
+          for="todo"
+        >
+          Enter Todo: 
+        </label>
+        <input
+          id="todo"
+          name="todo"
+          placeholder="Enter task"
+          type="text"
+          value=""
+        />
+        <button>
+          Add Todo
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
